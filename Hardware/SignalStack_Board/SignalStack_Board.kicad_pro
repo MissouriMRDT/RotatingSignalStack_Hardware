@@ -398,7 +398,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Documentation/SignalStack_Board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
