@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\tyler\Documents\GitHub\RotatingSignalStack_Hardware\Hardware\RotatingSignalStack_board\RotatingSignalStack_board.kicad_sch</source>
-    <date>9/28/2023 10:58:44 PM</date>
-    <tool>Eeschema (7.0.0)</tool>
+    <source>C:\Users\Brink\Documents\GitHub\SignalStack_Board_Hardware\Hardware\RotatingSignalStack_board\RotatingSignalStack_board.kicad_sch</source>
+    <date>11/7/2023 4:05:52 PM</date>
+    <tool>Eeschema 7.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -90,6 +90,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e32b9cfe-f0f4-4e43-951f-52c596bc7a21</tstamps>
     </comp>
+    <comp ref="Conn1">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RotatingSignalStack_board.kicad_sch"/>
+      <property name="ki_keywords" value="MOLEX SL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1204ea4d-0c21-442b-b021-9d35fcac1f88</tstamps>
+    </comp>
     <comp ref="Conn2">
       <value>AndersonPP</value>
       <footprint>MRDT_Connectors:Square_Anderson_2_H_Side_By_Side</footprint>
@@ -107,16 +117,6 @@
       <property name="Sheetfile" value="RotatingSignalStack_board.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>72fedbf7-23b0-4567-8fc4-9057f7ca36bd 12eba8f5-40be-49e3-ae50-266255e89130</tstamps>
-    </comp>
-    <comp ref="Conn5">
-      <value>Molex_SL_04</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_04_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_04" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="RotatingSignalStack_board.kicad_sch"/>
-      <property name="ki_keywords" value="MOLEX SL"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>12135096-6df1-46f8-b50b-35c8d1da7858</tstamps>
     </comp>
     <comp ref="Conn6">
       <value>Molex_SL_05</value>
@@ -185,7 +185,7 @@
     </comp>
     <comp ref="J2">
       <value>Conn_01x05_Pin</value>
-      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="RotatingSignalStack_board.kicad_sch"/>
@@ -237,6 +237,17 @@
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f384ca7e-3814-4570-9f78-83daee241265</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RotatingSignalStack_board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c55381e-ca80-489c-a1ac-61545ebcbaa3</tstamps>
     </comp>
     <comp ref="R13">
       <value>100</value>
@@ -475,16 +486,15 @@
         <pin num="4" name="PV+" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="MRDT_Connectors" part="Molex_SL_04">
+    <libpart lib="MRDT_Connectors" part="Molex_SL_03">
       <fields>
         <field name="Reference">Conn</field>
-        <field name="Value">Molex_SL_04</field>
+        <field name="Value">Molex_SL_03</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
         <pin num="2" name="" type="input"/>
         <pin num="3" name="" type="input"/>
-        <pin num="4" name="" type="input"/>
       </pins>
     </libpart>
     <libpart lib="MRDT_Connectors" part="Molex_SL_05">
@@ -615,32 +625,33 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>E:\Rover Software\KiCad7\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>E:\Rover Software\KiCad7\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="MRDT_Connectors">
-      <uri>C:\Users\tyler\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+      <uri>C:/Users/Brink/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
     </library>
     <library logical="MRDT_Devices">
-      <uri>C:\Users\tyler\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.kicad_sym</uri>
+      <uri>C:/Users/Brink/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.kicad_sym</uri>
     </library>
     <library logical="MRDT_Drill_Holes">
-      <uri>C:\Users\tyler\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
+      <uri>C:/Users/Brink/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
     </library>
     <library logical="MRDT_Shields">
-      <uri>C:\Users\tyler\Documents\GitHub\MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.kicad_sym</uri>
+      <uri>C:/Users/Brink/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>E:\Rover Software\KiCad7\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+3.3V">
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="Conn5" pin="3" pintype="input"/>
+      <node ref="Conn1" pin="3" pintype="input"/>
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="Vo" pintype="output"/>
@@ -694,7 +705,6 @@
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="Conn2" pin="1" pinfunction="GND" pintype="input"/>
       <node ref="Conn3" pin="1" pinfunction="GND" pintype="input"/>
-      <node ref="Conn5" pin="4" pintype="input"/>
       <node ref="Conn6" pin="4" pintype="input"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
@@ -714,11 +724,11 @@
       <node ref="U3" pin="USB_GND2" pinfunction="USB_GND" pintype="power_in"/>
     </net>
     <net code="10" name="HB_FWD">
-      <node ref="Conn5" pin="1" pintype="input"/>
+      <node ref="Conn1" pin="1" pintype="input"/>
       <node ref="U3" pin="12" pinfunction="MISO" pintype="bidirectional"/>
     </net>
     <net code="11" name="HB_RVS">
-      <node ref="Conn5" pin="2" pintype="input"/>
+      <node ref="Conn1" pin="2" pintype="input"/>
       <node ref="U3" pin="11" pinfunction="MOSI" pintype="bidirectional"/>
     </net>
     <net code="12" name="I2C SCL">
@@ -746,6 +756,7 @@
     <net code="16" name="MAG ENABLE">
       <node ref="Conn6" pin="1" pintype="input"/>
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U3" pin="15" pinfunction="A1" pintype="bidirectional"/>
     </net>
     <net code="17" name="Net-(C6-Pad1)">
