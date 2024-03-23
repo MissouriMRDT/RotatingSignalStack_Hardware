@@ -1,4 +1,4 @@
-22130329323502380
+22135470380030461
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61397,7 +61397,14 @@ Q36SR12020NRFA
 8
 8
 MRDT_Devices
-SHHD003A0A-SRZ
+SHHD003A0A-SRZ_Surface_Mount
+
+
+0
+6
+6
+MRDT_Devices
+SHHD003A0A41Z_Through_Hole
 
 
 0
@@ -84783,6 +84790,20 @@ rotary encoder
 0
 7
 6
+SeniorDesign
+WV-T264-101E
+
+
+0
+2
+2
+SeniorDesign
+silkscreen_coilgun
+
+
+0
+0
+0
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
