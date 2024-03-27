@@ -1950,11 +1950,6 @@
     (uuid 08098dc9-32fe-4892-af0c-cda1b8d4a486)
   )
 
-  (text "andersons need checked so that they are in the correct order"
-    (at 22.86 7.62 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 02ae5442-159d-42cf-a5d1-9a9e09151abe)
-  )
   (text "Motor Buttons" (at 153.67 130.81 0)
     (effects (font (size 2.5 2.5) (thickness 0.5) bold) (justify left bottom))
     (uuid 08646251-370f-4d95-b128-0deeff379372)
@@ -2248,11 +2243,11 @@
     (property "Datasheet" "" (at 80.01 6.35 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid b19e0c6f-5451-4346-9836-4a38df32d158))
+    (pin "1" (uuid b19e0c6f-5451-4346-9836-4a38df32d159))
     (pin "2" (uuid 5ce36faf-198b-4b80-90f8-af30fb60ed04))
     (pin "3" (uuid 4b191c40-743a-49e0-85a8-bd0a853c93e3))
     (pin "4" (uuid a54bb03e-6b08-40d8-8a8b-8e8689b89fe8))
-    (pin "1" (uuid b19e0c6f-5451-4346-9836-4a38df32d158))
+    (pin "1" (uuid b19e0c6f-5451-4346-9836-4a38df32d159))
     (instances
       (project "RotatingSignalStack_board"
         (path "/28faf80f-0d43-4c6f-8a15-62300b76c48c"
@@ -2308,11 +2303,11 @@
     (property "Datasheet" "" (at 13.97 55.88 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 4c3345e1-4a12-47e3-8af0-edb0365d1df2))
+    (pin "1" (uuid 4c3345e1-4a12-47e3-8af0-edb0365d1df3))
     (pin "2" (uuid 2e4422c8-2851-488f-8f40-c88f5a661db6))
     (pin "3" (uuid 5871c84b-6d8d-48fe-bd53-6c2f3f45ad84))
     (pin "4" (uuid 34d62570-ce73-4cec-bf60-de81e2a762d7))
-    (pin "1" (uuid 4c3345e1-4a12-47e3-8af0-edb0365d1df2))
+    (pin "1" (uuid 4c3345e1-4a12-47e3-8af0-edb0365d1df3))
     (instances
       (project "RotatingSignalStack_board"
         (path "/28faf80f-0d43-4c6f-8a15-62300b76c48c"
@@ -2775,11 +2770,11 @@
     (property "Datasheet" "" (at 80.01 22.86 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 8a5843ae-deec-4404-8c9f-1237fbbf78f4))
+    (pin "1" (uuid 8a5843ae-deec-4404-8c9f-1237fbbf78f5))
     (pin "2" (uuid 161e0dc7-21eb-4551-a9ac-a7920c65251c))
     (pin "3" (uuid efd1a64a-c423-4c0d-9614-148cb8274c1c))
     (pin "4" (uuid 23a59f7b-9efe-4245-918e-64a04c5611a6))
-    (pin "1" (uuid 8a5843ae-deec-4404-8c9f-1237fbbf78f4))
+    (pin "1" (uuid 8a5843ae-deec-4404-8c9f-1237fbbf78f5))
     (instances
       (project "RotatingSignalStack_board"
         (path "/28faf80f-0d43-4c6f-8a15-62300b76c48c"
@@ -3280,7 +3275,7 @@
     (property "Value" "22uF" (at 52.07 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 53.0352 34.29 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 53.0352 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 52.07 30.48 0)
@@ -3317,11 +3312,11 @@
     (property "Datasheet" "" (at 13.97 39.37 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid cdd40aef-149c-424c-a3b1-45f22e78668e))
+    (pin "1" (uuid cdd40aef-149c-424c-a3b1-45f22e78668f))
     (pin "2" (uuid 851f8cad-e902-482e-b4ce-5d2d0b08380f))
     (pin "3" (uuid 50f34a2f-b9ae-40cd-ac99-8fb6708b267b))
     (pin "4" (uuid feab1317-f3ab-40ce-840b-4e472dee2e6c))
-    (pin "1" (uuid cdd40aef-149c-424c-a3b1-45f22e78668e))
+    (pin "1" (uuid cdd40aef-149c-424c-a3b1-45f22e78668f))
     (instances
       (project "RotatingSignalStack_board"
         (path "/28faf80f-0d43-4c6f-8a15-62300b76c48c"
