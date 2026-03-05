@@ -13,4 +13,5 @@
   (lib (name "MRDT_Silkscreens")(type "KiCad")(uri "C:/Users/fanta/OneDrive/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Silkscreens.kicad_sym")(options "")(descr ""))
   (lib (name "MRDT_Switches")(type "KiCad")(uri "C:/Users/fanta/OneDrive/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Switches.kicad_sym")(options "")(descr ""))
   (lib (name "AP63203WU-7")(type "KiCad")(uri "${KIPRJMOD}/symbols/AP63203WU-7.kicad_sym")(options "")(descr ""))
+  (lib (name "TMAG5273C1QDBVR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TMAG5273C1QDBVR.kicad_sym")(options "")(descr ""))
 )
