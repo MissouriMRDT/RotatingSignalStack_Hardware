@@ -416,6 +416,14 @@
     [
       "0648de06-f236-45a7-979b-fcb950517fe9",
       "Ethernet"
+    ],
+    [
+      "cbabed27-8b23-4966-a034-4798ce513316",
+      "CAN"
+    ],
+    [
+      "529b11ad-76c7-45b5-9dee-e52654a54bfa",
+      "Compass"
     ]
   ],
   "text_variables": {}

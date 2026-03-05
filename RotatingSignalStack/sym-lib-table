@@ -14,4 +14,6 @@
   (lib (name "MRDT_Switches")(type "KiCad")(uri "C:/Users/fanta/OneDrive/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Switches.kicad_sym")(options "")(descr ""))
   (lib (name "AP63203WU-7")(type "KiCad")(uri "${KIPRJMOD}/symbols/AP63203WU-7.kicad_sym")(options "")(descr ""))
   (lib (name "TMAG5273C1QDBVR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TMAG5273C1QDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "GMG116S1202R")(type "KiCad")(uri "${KIPRJMOD}/symbols/GMG116S1202R.kicad_sym")(options "")(descr ""))
+  (lib (name "KC2016Z50.0000C15XXK")(type "KiCad")(uri "${KIPRJMOD}/symbols/KC2016Z50.0000C15XXK.kicad_sym")(options "")(descr ""))
 )
