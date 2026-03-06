@@ -641,6 +641,10 @@
     [
       "30b4ab86-9513-48f0-8407-b2da16bbb8ec",
       "Oscillator"
+    ],
+    [
+      "e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec",
+      "Motor Connector"
     ]
   ],
   "text_variables": {}

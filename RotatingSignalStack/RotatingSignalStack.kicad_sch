@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 173.99 104.14) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e7efff-b58d-4f19-a533-d8321e4baa51")
+	)
+	(wire
+		(pts
 			(xy 114.3 87.63) (xy 114.3 92.71)
 		)
 		(stroke
@@ -84,6 +94,16 @@
 			(type default)
 		)
 		(uuid "592cddf6-cbf3-418d-b5d8-7a0c1076e986")
+	)
+	(wire
+		(pts
+			(xy 173.99 106.68) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b03b8f0-d020-4955-8a07-13456e6616a4")
 	)
 	(wire
 		(pts
@@ -184,6 +204,16 @@
 			(type default)
 		)
 		(uuid "d6adec78-c37c-4573-892c-83f3a9a8b2f6")
+	)
+	(wire
+		(pts
+			(xy 173.99 109.22) (xy 176.53 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e207d214-ce31-4eb1-a096-424cdd2dab86")
 	)
 	(wire
 		(pts
@@ -635,6 +665,36 @@
 				(justify left)
 			)
 		)
+		(pin "MOTOR_STP" output
+			(at 173.99 106.68 0)
+			(uuid "76e95c06-c752-4bbb-b7a2-3cbda7713a32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_DIR" output
+			(at 173.99 109.22 0)
+			(uuid "362383a1-e725-4079-8037-876b2867554e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_EN" output
+			(at 173.99 104.14 0)
+			(uuid "9b6c5889-ade2-4e7c-8e20-d696179c3488")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
@@ -955,6 +1015,78 @@
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 99.06)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec")
+		(property "Sheetname" "Motor Connector"
+			(at 176.53 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 176.53 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR_DIR" input
+			(at 176.53 109.22 180)
+			(uuid "24a7ff6d-18a6-4bd6-ab70-f6618a0bfc3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_EN" input
+			(at 176.53 104.14 180)
+			(uuid "271c079a-65ae-45e2-8881-e35569327cf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_STP" input
+			(at 176.53 106.68 180)
+			(uuid "78477909-274b-430c-9273-35665e29ef71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RotatingSignalStack"
+				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
+					(page "9")
 				)
 			)
 		)
