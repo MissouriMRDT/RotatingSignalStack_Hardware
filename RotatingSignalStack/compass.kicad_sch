@@ -1010,49 +1010,27 @@
 		)
 		(uuid "e1415ec6-b173-48ec-a7f9-dd9f6eb567e9")
 	)
-	(global_label "I2C3_SCL"
-		(shape bidirectional)
-		(at 171.45 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5bd4b50a-2c34-4aff-8c9b-46e73b9bc2e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3155 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C3_SDA"
+	(hierarchical_label "I2C3_SDA"
 		(shape bidirectional)
 		(at 171.45 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ac3df79c-f20a-435b-af3e-dbfe080833c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.376 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "95731c79-ce1c-4506-b296-b3f943d42fb5")
+	)
+	(hierarchical_label "I2C3_SCL"
+		(shape bidirectional)
+		(at 171.45 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "cf0cae43-6657-410c-8cc0-436c6c80d799")
 	)
 	(symbol
 		(lib_id "TMAG5273C1QDBVR:TMAG5273C1QDBVR")
