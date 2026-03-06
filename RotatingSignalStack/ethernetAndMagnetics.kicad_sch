@@ -3128,28 +3128,6 @@
 			)
 		)
 	)
-	(global_label "24V"
-		(shape output)
-		(at 207.01 102.87 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25499416-1e25-47e4-a0fd-2b4ba9f2985c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.01 109.3628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Tx-"
 		(shape output)
 		(at 118.11 85.09 0)
@@ -3391,6 +3369,17 @@
 			(justify right)
 		)
 		(uuid "3b42b554-44d3-48ff-b483-7453f3650571")
+	)
+	(hierarchical_label "24V"
+		(shape output)
+		(at 207.01 102.87 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46c62dab-c467-4028-b8fb-304b9ea758ed")
 	)
 	(hierarchical_label "LED2"
 		(shape input)
