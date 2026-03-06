@@ -1305,6 +1305,17 @@
 		)
 		(uuid "0646728c-c62b-4b47-8fd0-da052451a0be")
 	)
+	(hierarchical_label "MOTOR_STP"
+		(shape output)
+		(at 153.67 60.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0959c059-b9e3-401b-8b56-f7af1a601fbf")
+	)
 	(hierarchical_label "STM_CLK_IN"
 		(shape input)
 		(at 115.57 114.3 180)
@@ -1404,6 +1415,17 @@
 		)
 		(uuid "7708c6df-80d3-4882-940a-47c85c4574ae")
 	)
+	(hierarchical_label "MOTOR_DIR"
+		(shape output)
+		(at 151.13 60.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0ff267e-d9eb-44b8-a3e1-b0d780f7bf27")
+	)
 	(hierarchical_label "TX_D1"
 		(shape input)
 		(at 168.91 109.22 0)
@@ -1414,6 +1436,17 @@
 			(justify left)
 		)
 		(uuid "bd6ef7d4-bbcf-463f-8aa7-36fdf40022cc")
+	)
+	(hierarchical_label "MOTOR_EN"
+		(shape output)
+		(at 156.21 60.96 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d30495a6-81d6-44b4-8388-eb116a14bb9d")
 	)
 	(hierarchical_label "I2C3_SCL"
 		(shape bidirectional)
@@ -1458,7 +1491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "266452e3-c7d6-4416-a246-95abf0449955")
-		(property "Reference" "IC2"
+		(property "Reference" "IC?"
 			(at 172.72 72.3198 0)
 			(effects
 				(font
@@ -1766,6 +1799,12 @@
 			(uuid "69f7dd79-ae00-4da2-9727-af2733fcd276")
 		)
 		(instances
+			(project "stm"
+				(path "/47894d99-59eb-47c3-8dc1-da6679d60b45"
+					(reference "IC?")
+					(unit 1)
+				)
+			)
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/85f5c4be-2744-4dc6-8792-10e4391fb2cb"
 					(reference "IC2")
@@ -1774,4 +1813,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
