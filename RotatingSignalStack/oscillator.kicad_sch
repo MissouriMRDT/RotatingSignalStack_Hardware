@@ -607,6 +607,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "https://electronics.stackexchange.com/questions/392399/how-to-connect-the-phy-crystal-for-rmii"
+		(exclude_from_sim no)
+		(at 75.438 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13abd02e-adb4-4f7d-bcbe-f57a77de5acf")
+	)
 	(junction
 		(at 205.74 82.55)
 		(diameter 0)
