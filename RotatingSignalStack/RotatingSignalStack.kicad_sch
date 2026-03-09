@@ -1035,7 +1035,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec")
-		(property "Sheetname" "Motor Connector"
+		(property "Sheetname" "Connectors"
 			(at 176.53 98.3484 0)
 			(effects
 				(font
@@ -1044,7 +1044,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "connectors.kicad_sch"
 			(at 176.53 112.3446 0)
 			(effects
 				(font
