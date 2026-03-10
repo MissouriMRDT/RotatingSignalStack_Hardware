@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 173.99 104.14) (xy 176.53 104.14)
+			(xy 173.99 101.6) (xy 176.53 101.6)
 		)
 		(stroke
 			(width 0)
@@ -67,6 +67,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 124.46) (xy 176.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484e2345-7fa9-4fb2-a7e9-74d46e2d78fe")
+	)
+	(wire
+		(pts
 			(xy 127 35.56) (xy 128.27 35.56)
 		)
 		(stroke
@@ -97,7 +107,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 106.68) (xy 176.53 106.68)
+			(xy 173.99 104.14) (xy 176.53 104.14)
 		)
 		(stroke
 			(width 0)
@@ -134,6 +144,36 @@
 			(type default)
 		)
 		(uuid "88411bea-da56-442a-82ce-b7c8207890e6")
+	)
+	(wire
+		(pts
+			(xy 173.99 129.54) (xy 176.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b790b46-c297-4f03-ae61-f68ba544a0f4")
+	)
+	(wire
+		(pts
+			(xy 173.99 121.92) (xy 176.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1df64c-8d01-44a9-ab62-4b2064b6c085")
+	)
+	(wire
+		(pts
+			(xy 173.99 134.62) (xy 176.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4b50e9-b159-49c8-a1b7-0616feae29c0")
 	)
 	(wire
 		(pts
@@ -177,6 +217,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 127) (xy 176.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb7a36d-005f-494b-ace4-0870b3a6b02e")
+	)
+	(wire
+		(pts
 			(xy 173.99 69.85) (xy 175.26 69.85)
 		)
 		(stroke
@@ -207,7 +257,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 109.22) (xy 176.53 109.22)
+			(xy 173.99 106.68) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
@@ -254,6 +304,16 @@
 			(type default)
 		)
 		(uuid "fe3cb014-2d7c-40b8-854b-3724bcbd2474")
+	)
+	(wire
+		(pts
+			(xy 173.99 132.08) (xy 176.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9318cf-a65b-442c-a69f-e73672cb3104")
 	)
 	(sheet
 		(at 100.33 92.71)
@@ -666,7 +726,7 @@
 			)
 		)
 		(pin "MOTOR_STP" output
-			(at 173.99 106.68 0)
+			(at 173.99 104.14 0)
 			(uuid "76e95c06-c752-4bbb-b7a2-3cbda7713a32")
 			(effects
 				(font
@@ -676,7 +736,7 @@
 			)
 		)
 		(pin "MOTOR_DIR" output
-			(at 173.99 109.22 0)
+			(at 173.99 106.68 0)
 			(uuid "362383a1-e725-4079-8037-876b2867554e")
 			(effects
 				(font
@@ -686,8 +746,68 @@
 			)
 		)
 		(pin "MOTOR_EN" output
-			(at 173.99 104.14 0)
+			(at 173.99 101.6 0)
 			(uuid "9b6c5889-ade2-4e7c-8e20-d696179c3488")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTCK" input
+			(at 173.99 129.54 0)
+			(uuid "ac78312a-f56d-4802-b771-3e6bc7ef974c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTDI" input
+			(at 173.99 124.46 0)
+			(uuid "6fbc7e33-7500-4d2b-8f39-1deb5ff8d41a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTDO" output
+			(at 173.99 134.62 0)
+			(uuid "78583efd-3af2-4176-8e08-90f8f9115678")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NJTRST" input
+			(at 173.99 127 0)
+			(uuid "574d8357-cecb-4837-905c-28697e36a971")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 173.99 132.08 0)
+			(uuid "9e7c8fe5-b90a-445e-9b33-caed380a76c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 173.99 121.92 0)
+			(uuid "c73d46c0-495b-4777-825e-e0c1b78acfb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1141,7 @@
 	)
 	(sheet
 		(at 176.53 99.06)
-		(size 22.86 12.7)
+		(size 25.4 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1045,7 +1165,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 176.53 112.3446 0)
+			(at 176.53 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +1174,7 @@
 			)
 		)
 		(pin "MOTOR_DIR" input
-			(at 176.53 109.22 180)
+			(at 176.53 106.68 180)
 			(uuid "24a7ff6d-18a6-4bd6-ab70-f6618a0bfc3f")
 			(effects
 				(font
@@ -1064,7 +1184,7 @@
 			)
 		)
 		(pin "MOTOR_EN" input
-			(at 176.53 104.14 180)
+			(at 176.53 101.6 180)
 			(uuid "271c079a-65ae-45e2-8881-e35569327cf1")
 			(effects
 				(font
@@ -1074,8 +1194,68 @@
 			)
 		)
 		(pin "MOTOR_STP" input
-			(at 176.53 106.68 180)
+			(at 176.53 104.14 180)
 			(uuid "78477909-274b-430c-9273-35665e29ef71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 176.53 121.92 180)
+			(uuid "ac0d8b04-c7f2-416a-b10d-2e9eedc60148")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTDI" output
+			(at 176.53 124.46 180)
+			(uuid "a5f0803f-bdf8-4c3d-a1b4-a7b2249b670e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NJTRST" output
+			(at 176.53 127 180)
+			(uuid "66352eb0-8ad3-480d-a401-91173f48d2cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTCK" output
+			(at 176.53 129.54 180)
+			(uuid "42e9aaed-9e79-4cb3-9957-1c361dd5d3d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 176.53 132.08 180)
+			(uuid "7a68e93e-d849-4c6a-bee4-080eb15dd656")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTDO" input
+			(at 176.53 134.62 180)
+			(uuid "e5e0f2c4-9e50-4e69-9dff-7538f1b394c0")
 			(effects
 				(font
 					(size 1.27 1.27)
