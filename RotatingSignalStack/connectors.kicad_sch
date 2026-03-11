@@ -766,46 +766,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MRDT_Connectors:Molex_SL_06"
+		(symbol "MRDT_Connectors:Molex_SL_04"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Conn"
-				(at 2.54 -1.27 0)
+				(at 3.81 -1.27 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "Molex_SL_06"
-				(at 0 16.764 0)
+			(property "Value" "Molex_SL_04"
+				(at 1.27 11.43 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
 			(property "Footprint" ""
-				(at -5.08 3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at -5.08 3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(hide yes)
 				)
 			)
 			(property "Description" ""
-				(at -5.08 3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -813,9 +816,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Molex_SL_06_0_1"
+			(property "ki_keywords" "MOLEX SL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_SL_04_0_1"
 				(rectangle
-					(start 0 15.24)
+					(start 0 10.16)
 					(end 2.54 0)
 					(stroke
 						(width 0)
@@ -826,9 +838,9 @@
 					)
 				)
 			)
-			(symbol "Molex_SL_06_1_1"
+			(symbol "Molex_SL_04_1_1"
 				(pin input line
-					(at -5.08 13.97 0)
+					(at -5.08 8.89 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -846,7 +858,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 11.43 0)
+					(at -5.08 6.35 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -864,7 +876,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 8.89 0)
+					(at -5.08 3.81 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -882,42 +894,6 @@
 					)
 				)
 				(pin input line
-					(at -5.08 6.35 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 3.81 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -5.08 1.27 0)
 					(length 5.08)
 					(name "~"
@@ -927,7 +903,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1356,16 +1332,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 60.96) (xy 190.5 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06907e8f-ae28-4101-af0a-e896246f765d")
-	)
-	(wire
-		(pts
 			(xy 91.44 53.34) (xy 80.01 53.34)
 		)
 		(stroke
@@ -1446,16 +1412,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 55.88) (xy 190.5 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f0919e-da7a-4247-83fc-1be8fad3ba9f")
-	)
-	(wire
-		(pts
 			(xy 109.22 60.96) (xy 109.22 71.12)
 		)
 		(stroke
@@ -1496,16 +1452,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 58.42) (xy 190.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b218bb73-c897-4d3f-af92-796950cd0a02")
-	)
-	(wire
-		(pts
 			(xy 91.44 50.8) (xy 91.44 53.34)
 		)
 		(stroke
@@ -1516,13 +1462,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 60.96) (xy 176.53 53.34)
+			(xy 187.96 55.88) (xy 205.74 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0a77409-183b-4440-835f-0ff4f13c24c7")
+		(uuid "b514b4ed-cbf6-4242-b2a1-5532261c7a35")
+	)
+	(wire
+		(pts
+			(xy 187.96 58.42) (xy 205.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0af9d64-1f9c-411b-8801-bb3d768f4e76")
 	)
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
@@ -1568,27 +1524,16 @@
 		)
 		(uuid "67049957-87c4-453e-83a0-b81867497baf")
 	)
-	(hierarchical_label "MOTOR_DIR"
-		(shape input)
-		(at 190.5 68.58 180)
+	(hierarchical_label "CANL"
+		(shape bidirectional)
+		(at 205.74 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8e1762ad-e579-424f-a3aa-acb2e43a3cd1")
-	)
-	(hierarchical_label "MOTOR_EN"
-		(shape input)
-		(at 190.5 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "935d3860-8080-4881-b591-4280cbbf67ce")
+		(uuid "6adf2200-38c0-44c7-9551-9f99c5dc3397")
 	)
 	(hierarchical_label "JTDO"
 		(shape input)
@@ -1601,16 +1546,16 @@
 		)
 		(uuid "958fbb6c-5bb2-4100-8105-b7d443e304bf")
 	)
-	(hierarchical_label "MOTOR_STP"
-		(shape input)
-		(at 190.5 66.04 180)
+	(hierarchical_label "CANH"
+		(shape bidirectional)
+		(at 205.74 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ab3e1394-c6a0-40ac-ba8b-25dcf2cb1547")
+		(uuid "9fff30bc-7426-4cb5-95de-c1caa5eefeb8")
 	)
 	(hierarchical_label "NRST"
 		(shape bidirectional)
@@ -1684,6 +1629,148 @@
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1528a434-4ca0-4218-9060-fbdcdc7250d6")
+		(property "Reference" "#PWR026"
+			(at 187.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d7d1d20-d540-45cc-8ee8-9fe0ba80dfa9")
+		)
+		(instances
+			(project "RotatingSignalStack"
+				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_04")
+		(at 210.82 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ad421bb-77a1-4798-9050-23fb14e5f91d")
+		(property "Reference" "Conn2"
+			(at 214.63 58.4199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_04"
+			(at 214.63 60.9599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eed2681a-a723-475d-b6df-2820b3f4129c")
+		)
+		(pin "4"
+			(uuid "aa4d6244-6f2c-4c87-af47-5c343202b14a")
+		)
+		(pin "2"
+			(uuid "f60ca5e7-4857-4336-8e1e-03d17fe74a9b")
+		)
+		(pin "3"
+			(uuid "be56885b-bd7e-4f3c-92ad-679e3c58de56")
+		)
+		(instances
+			(project ""
+				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec"
+					(reference "Conn2")
 					(unit 1)
 				)
 			)
@@ -1894,35 +1981,34 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:Molex_SL_06")
-		(at 195.58 69.85 0)
+		(lib_id "power:+24V")
+		(at 187.96 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e6a3ea3-c3e6-4246-8dc0-5dd12faa485f")
-		(property "Reference" "Conn1"
-			(at 199.39 60.9599 0)
+		(uuid "60925ceb-d5fa-4ad4-872f-944c34582ed4")
+		(property "Reference" "#PWR020"
+			(at 187.96 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "Molex_SL_06"
-			(at 199.39 63.4999 0)
+		(property "Value" "+24V"
+			(at 187.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 66.04 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +2017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 66.04 0)
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,8 +2025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,27 +2035,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7dd0a1e8-3e3a-4a00-9263-e5bcd1875d00")
-		)
-		(pin "5"
-			(uuid "ad0b5e59-25b3-4327-92ea-c801a2bdf572")
-		)
-		(pin "4"
-			(uuid "d406fdb0-810a-4afb-a57b-76c483e5e818")
-		)
-		(pin "6"
-			(uuid "99f705e2-c233-4a7a-b3f1-8cd4bf66c4d0")
-		)
-		(pin "3"
-			(uuid "8da17d3b-7501-4db8-8b92-874bf10fae86")
-		)
-		(pin "2"
-			(uuid "4b051bb8-ed78-4d3f-b338-5c3ef81c9742")
+			(uuid "b37105e8-b92c-4c04-8ead-d06869ce4ea1")
 		)
 		(instances
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec"
-					(reference "Conn1")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2036,138 +2107,6 @@
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c227edb6-e93a-4449-bb2d-10c9c4ce7bcc")
-		(property "Reference" "#PWR019"
-			(at 172.72 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1717dbb9-29a9-45da-8387-b8c36e2a18e7")
-		)
-		(instances
-			(project "RotatingSignalStack"
-				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 176.53 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c821485a-80a0-4791-8c11-3a0c7a09092d")
-		(property "Reference" "#PWR026"
-			(at 176.53 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 176.53 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 176.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c556d92-4b9a-45b3-a548-fd617b705443")
-		)
-		(instances
-			(project "RotatingSignalStack"
-				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2359,72 +2298,6 @@
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 172.72 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f14173c7-e674-4410-85bb-6be01648c9e2")
-		(property "Reference" "#PWR010"
-			(at 172.72 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 172.72 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 172.72 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15cc7d7d-6785-41b3-a0b8-31164a6633be")
-		)
-		(instances
-			(project "RotatingSignalStack"
-				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)

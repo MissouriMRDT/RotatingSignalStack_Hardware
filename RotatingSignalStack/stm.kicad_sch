@@ -3408,17 +3408,6 @@
 		)
 		(uuid "07a1f4fd-0890-482b-9fe2-af02d5244960")
 	)
-	(hierarchical_label "MOTOR_STP"
-		(shape output)
-		(at 118.11 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0959c059-b9e3-401b-8b56-f7af1a601fbf")
-	)
 	(hierarchical_label "JTDO"
 		(shape output)
 		(at 110.49 69.85 90)
@@ -3573,17 +3562,6 @@
 		)
 		(uuid "83b470a6-fd66-4d78-aa9b-f72b88e95671")
 	)
-	(hierarchical_label "MOTOR_DIR"
-		(shape output)
-		(at 115.57 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0ff267e-d9eb-44b8-a3e1-b0d780f7bf27")
-	)
 	(hierarchical_label "TX_D1"
 		(shape input)
 		(at 133.35 118.11 0)
@@ -3594,17 +3572,6 @@
 			(justify left)
 		)
 		(uuid "bd6ef7d4-bbcf-463f-8aa7-36fdf40022cc")
-	)
-	(hierarchical_label "MOTOR_EN"
-		(shape output)
-		(at 120.65 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d30495a6-81d6-44b4-8388-eb116a14bb9d")
 	)
 	(hierarchical_label "I2C3_SCL"
 		(shape bidirectional)
