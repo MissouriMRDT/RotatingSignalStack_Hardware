@@ -19,4 +19,5 @@
   (lib (name "SG-210STF 50.0000ML0")(type "KiCad")(uri "${KIPRJMOD}/symbols/SG-210STF 50.0000ML0.kicad_sym")(options "")(descr ""))
   (lib (name "ESDALC6V1-1U2")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESDALC6V1-1U2.kicad_sym")(options "")(descr ""))
   (lib (name "ESDCAN03-2BWY")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESDCAN03-2BWY.kicad_sym")(options "")(descr ""))
+  (lib (name "USBLC6-4SC6")(type "KiCad")(uri "${KIPRJMOD}/symbols/USBLC6-4SC6.kicad_sym")(options "")(descr ""))
 )
