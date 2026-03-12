@@ -651,6 +651,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 107.95) (xy 227.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3267653a-9451-43de-92da-c67486ab377d")
+	)
+	(wire
+		(pts
 			(xy 205.74 100.33) (xy 205.74 82.55)
 		)
 		(stroke
@@ -688,6 +698,16 @@
 			(type default)
 		)
 		(uuid "6419c504-819e-4c1e-87d1-a7a777ab2714")
+	)
+	(wire
+		(pts
+			(xy 231.14 97.79) (xy 227.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12852a3-8e6f-4a0c-867a-446cad90297c")
 	)
 	(wire
 		(pts
@@ -741,7 +761,7 @@
 	)
 	(hierarchical_label "STM_CLK_IN"
 		(shape output)
-		(at 227.33 107.95 0)
+		(at 231.14 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -752,7 +772,7 @@
 	)
 	(hierarchical_label "PHY_CLK_IN"
 		(shape output)
-		(at 227.33 97.79 0)
+		(at 231.14 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
