@@ -17,16 +17,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 72.39) (xy 175.26 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c785265-04dc-4204-a82d-7b567f17bfd7")
-	)
-	(wire
-		(pts
 			(xy 180.34 93.98) (xy 180.34 99.06)
 		)
 		(stroke
@@ -44,6 +34,16 @@
 			(type default)
 		)
 		(uuid "1ca2cb44-72af-4a8a-98b5-f2df27b67262")
+	)
+	(wire
+		(pts
+			(xy 173.99 62.23) (xy 175.26 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2cf5c7-2286-45b3-a5e7-1e009a338074")
 	)
 	(wire
 		(pts
@@ -87,6 +87,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 64.77) (xy 175.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e0c9f9-f6b1-49be-8575-052968c5faf8")
+	)
+	(wire
+		(pts
 			(xy 106.68 87.63) (xy 106.68 92.71)
 		)
 		(stroke
@@ -94,6 +104,16 @@
 			(type default)
 		)
 		(uuid "44f22b95-f070-4edc-8c4f-51bfdf9fe0ef")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472d7291-bda5-4ea0-9c89-591cf6680ba9")
 	)
 	(wire
 		(pts
@@ -147,16 +167,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 111.76) (xy 123.19 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71e6ed5f-af88-4904-b1e1-18ca29faf21f")
-	)
-	(wire
-		(pts
 			(xy 127 64.77) (xy 128.27 64.77)
 		)
 		(stroke
@@ -177,6 +187,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 59.69) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b47318-6b29-41f8-a473-c94193e4f985")
+	)
+	(wire
+		(pts
 			(xy 177.8 93.98) (xy 177.8 99.06)
 		)
 		(stroke
@@ -184,6 +204,16 @@
 			(type default)
 		)
 		(uuid "ac0234a8-7f1c-479e-9a26-637c1937066d")
+	)
+	(wire
+		(pts
+			(xy 173.99 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5ff254-1ca9-4382-b4e4-5d0a88aa061c")
 	)
 	(wire
 		(pts
@@ -254,16 +284,6 @@
 			(type default)
 		)
 		(uuid "dc0c7dbf-7893-460e-acb0-b23a847858c8")
-	)
-	(wire
-		(pts
-			(xy 173.99 69.85) (xy 175.26 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42376ed-1f5e-49ff-aa40-b281942e0167")
 	)
 	(wire
 		(pts
@@ -397,16 +417,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "24V" output
-			(at 123.19 111.76 270)
-			(uuid "f43dff0d-8763-4e63-9353-fe8e43eb655f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
@@ -616,7 +626,7 @@
 			)
 		)
 		(pin "DCAN1_RX" input
-			(at 173.99 69.85 0)
+			(at 173.99 82.55 0)
 			(uuid "0b21e306-684a-4129-998b-93b8416dc613")
 			(effects
 				(font
@@ -626,7 +636,7 @@
 			)
 		)
 		(pin "DCAN1_TX" output
-			(at 173.99 72.39 0)
+			(at 173.99 85.09 0)
 			(uuid "4ee8fc59-e880-48f5-a527-18e7e2123703")
 			(effects
 				(font
@@ -768,6 +778,36 @@
 		(pin "SWDIO" bidirectional
 			(at 173.99 121.92 0)
 			(uuid "c73d46c0-495b-4777-825e-e0c1b78acfb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JOG B" input
+			(at 173.99 64.77 0)
+			(uuid "0c3af828-c65c-4efa-b7d1-29971e41f9c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JOG A" input
+			(at 173.99 62.23 0)
+			(uuid "e6b2171f-8659-4a11-abfb-9252970df941")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALIGN" input
+			(at 173.99 59.69 0)
+			(uuid "7d90e5a8-c7e1-4494-a91d-a7d7b642a540")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,8 +1026,80 @@
 		)
 	)
 	(sheet
-		(at 175.26 67.31)
-		(size 26.67 26.67)
+		(at 175.26 58.42)
+		(size 26.67 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9edfec9-9105-4019-b7c2-2fe0040ed8fc")
+		(property "Sheetname" "Buttons"
+			(at 175.26 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 175.26 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ALIGN" output
+			(at 175.26 59.69 180)
+			(uuid "72cdfc99-5a5a-4543-b02e-c83648a0eb9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JOG B" output
+			(at 175.26 62.23 180)
+			(uuid "a4664376-10d8-4651-b29a-bed96f82a7eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JOG A" output
+			(at 175.26 64.77 180)
+			(uuid "302366b0-dcaf-41eb-a853-349a8627cb33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RotatingSignalStack"
+				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 80.01)
+		(size 26.67 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1002,7 +1114,7 @@
 		)
 		(uuid "cbabed27-8b23-4966-a034-4798ce513316")
 		(property "Sheetname" "CAN"
-			(at 175.26 66.5984 0)
+			(at 175.26 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1132,7 @@
 			)
 		)
 		(pin "DCAN1_RX" output
-			(at 175.26 69.85 180)
+			(at 175.26 82.55 180)
 			(uuid "a0245f91-cda0-412b-95bd-3e25bdc6643c")
 			(effects
 				(font
@@ -1030,7 +1142,7 @@
 			)
 		)
 		(pin "DCAN1_TX" input
-			(at 175.26 72.39 180)
+			(at 175.26 85.09 180)
 			(uuid "4d5155d2-350a-4120-8d85-69f9cfd8914b")
 			(effects
 				(font
@@ -1099,16 +1211,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "24V" input
-			(at 123.19 116.84 90)
-			(uuid "9a513469-3d01-41cf-9f3b-73b8051d8d9b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances

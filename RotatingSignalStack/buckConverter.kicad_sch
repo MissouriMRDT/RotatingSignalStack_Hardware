@@ -1624,7 +1624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cf4a017-4b03-4155-8fd2-ba7d977fe7e1")
-		(property "Reference" "PWR_LED_K"
+		(property "Reference" "D1"
 			(at 200.66 96.8374 90)
 			(effects
 				(font
@@ -1687,7 +1687,7 @@
 		(instances
 			(project ""
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/dac6530d-1a7d-4129-93bc-f6ebad621e95"
-					(reference "PWR_LED_K")
+					(reference "D1")
 					(unit 1)
 				)
 			)

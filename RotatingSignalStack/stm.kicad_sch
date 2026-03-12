@@ -2573,10 +2573,6 @@
 		(uuid "502eb07f-bcc4-4064-b31c-bf32971809b8")
 	)
 	(no_connect
-		(at 127 71.12)
-		(uuid "6281f257-046c-4608-b43c-bad1837bc622")
-	)
-	(no_connect
 		(at 86.36 124.46)
 		(uuid "6969e712-72e4-46c7-9e47-cbcd1043fcf2")
 	)
@@ -2629,10 +2625,6 @@
 		(uuid "c3d8042e-2884-462f-9e71-04c8724a759c")
 	)
 	(no_connect
-		(at 121.92 71.12)
-		(uuid "c80f985c-3479-4bb1-87b7-7beea85db2b9")
-	)
-	(no_connect
 		(at 119.38 144.78)
 		(uuid "c88b4ecd-d7ab-4577-8a07-93da7beced3f")
 	)
@@ -2647,10 +2639,6 @@
 	(no_connect
 		(at 139.7 101.6)
 		(uuid "db874606-0a4d-47ad-872e-00aac1e9503f")
-	)
-	(no_connect
-		(at 124.46 71.12)
-		(uuid "df4ba355-24dd-4060-8901-49a1ca9cbefe")
 	)
 	(no_connect
 		(at 93.98 144.78)
@@ -3873,6 +3861,17 @@
 		)
 		(uuid "1105d2a7-94fa-4c29-b8f6-a66ad0b08bba")
 	)
+	(hierarchical_label "JOG B"
+		(shape input)
+		(at 124.46 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13d257d0-fbc6-432a-a651-d0c317c5dce6")
+	)
 	(hierarchical_label "JTCK"
 		(shape input)
 		(at 132.08 71.12 90)
@@ -3883,6 +3882,17 @@
 			(justify left)
 		)
 		(uuid "146a9b3b-c2a2-4d60-ab72-877f1ce92e42")
+	)
+	(hierarchical_label "JOG A"
+		(shape input)
+		(at 121.92 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c3e00b6-ca95-41ed-acd1-b5d30c26d823")
 	)
 	(hierarchical_label "DCAN1_RX"
 		(shape input)
@@ -4059,6 +4069,17 @@
 			(justify right)
 		)
 		(uuid "ea5d9d0d-aaf2-4cef-89aa-9742f1cec1e0")
+	)
+	(hierarchical_label "ALIGN"
+		(shape input)
+		(at 127 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef3ef80a-3009-4010-b891-d95fba43ea12")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
