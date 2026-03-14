@@ -1619,7 +1619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMAG5273C1QDBVR:SOT95P280X140-6N"
+		(property "Footprint" "SignalStack:TMAG5273C1QDBVR"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -1629,7 +1629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TMAG5273C1QDBVR/21298832"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -1808,7 +1808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.006 85.344 90)
 			(effects
 				(font
@@ -2076,7 +2076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 167.386 85.344 90)
 			(effects
 				(font
@@ -2228,7 +2228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 194.0052 93.98 0)
 			(effects
 				(font

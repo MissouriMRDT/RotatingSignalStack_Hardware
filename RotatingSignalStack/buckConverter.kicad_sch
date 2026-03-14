@@ -1642,7 +1642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 196.85 96.52 0)
 			(effects
 				(font
@@ -1787,7 +1787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 182.5752 100.33 0)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.834 105.156 90)
 			(effects
 				(font
@@ -1991,7 +1991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP63203WU-7_DIO"
+		(property "Footprint" "SignalStack:AP63203WU-7_DIO"
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -2001,7 +2001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "AP63203WU-7"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426"
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -2073,7 +2073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SignalStack:INDM2520X190N"
 			(at 175.26 91.44 0)
 			(effects
 				(font
@@ -2082,7 +2082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/NLV25T-3R9J-PF/600347"
 			(at 175.26 91.44 0)
 			(effects
 				(font
@@ -2209,7 +2209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.5352 109.22 0)
 			(effects
 				(font
@@ -2279,7 +2279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 182.5752 110.49 0)
 			(effects
 				(font
@@ -2349,7 +2349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 169.8752 82.55 0)
 			(effects
 				(font

@@ -4,7 +4,91 @@
 	(generator_version "9.0")
 	(uuid "fbbbfa89-3c28-4cf8-856b-66ca7308742c")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(wire
 		(pts
 			(xy 114.3 87.63) (xy 114.3 92.71)
@@ -47,17 +131,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 134.62) (xy 175.26 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26752da4-0846-4e47-b031-fed8bcc22d02")
-	)
-	(wire
-		(pts
-			(xy 173.99 124.46) (xy 175.26 124.46)
+			(xy 173.99 129.54) (xy 175.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +231,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 121.92) (xy 175.26 121.92)
+			(xy 173.99 127) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
@@ -257,16 +331,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 132.08) (xy 175.26 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9167038-cbb0-4db6-82af-9a1f63209697")
-	)
-	(wire
-		(pts
 			(xy 127 72.39) (xy 128.27 72.39)
 		)
 		(stroke
@@ -277,7 +341,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 129.54) (xy 175.26 129.54)
+			(xy 173.99 134.62) (xy 175.26 134.62)
 		)
 		(stroke
 			(width 0)
@@ -307,7 +371,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 127) (xy 175.26 127)
+			(xy 173.99 132.08) (xy 175.26 132.08)
 		)
 		(stroke
 			(width 0)
@@ -324,6 +388,258 @@
 			(type default)
 		)
 		(uuid "fe3cb014-2d7c-40b8-854b-3724bcbd2474")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 85.09 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f75fc6e-eefd-497b-adb4-081150b33f12")
+		(property "Reference" "H4"
+			(at 85.09 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 87.63 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
+			(at 85.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 85.09 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RotatingSignalStack"
+				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 85.09 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "69884158-0944-4164-9bd1-08473b77d445")
+		(property "Reference" "H2"
+			(at 85.09 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 87.63 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
+			(at 85.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 85.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RotatingSignalStack"
+				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 76.2 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "de171abb-9c1f-4147-bf11-c91fccb756f1")
+		(property "Reference" "H3"
+			(at 76.2 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 78.74 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RotatingSignalStack"
+				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 76.2 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec08e885-77a9-40ad-973a-e707a7687672")
+		(property "Reference" "H1"
+			(at 76.2 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 78.74 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RotatingSignalStack"
+				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 100.33 92.71)
@@ -725,66 +1041,6 @@
 				(justify left)
 			)
 		)
-		(pin "JTCK" input
-			(at 173.99 129.54 0)
-			(uuid "ac78312a-f56d-4802-b771-3e6bc7ef974c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "JTDI" input
-			(at 173.99 124.46 0)
-			(uuid "6fbc7e33-7500-4d2b-8f39-1deb5ff8d41a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "JTDO" output
-			(at 173.99 134.62 0)
-			(uuid "78583efd-3af2-4176-8e08-90f8f9115678")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NJTRST" input
-			(at 173.99 127 0)
-			(uuid "574d8357-cecb-4837-905c-28697e36a971")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NRST" bidirectional
-			(at 173.99 132.08 0)
-			(uuid "9e7c8fe5-b90a-445e-9b33-caed380a76c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SWDIO" bidirectional
-			(at 173.99 121.92 0)
-			(uuid "c73d46c0-495b-4777-825e-e0c1b78acfb6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "JOG B" input
 			(at 173.99 64.77 0)
 			(uuid "0c3af828-c65c-4efa-b7d1-29971e41f9c4")
@@ -808,6 +1064,46 @@
 		(pin "ALIGN" input
 			(at 173.99 59.69 0)
 			(uuid "7d90e5a8-c7e1-4494-a91d-a7d7b642a540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWO" output
+			(at 173.99 127 0)
+			(uuid "673b1d5a-65aa-45cb-96ce-6b42548e0320")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" input
+			(at 173.99 129.54 0)
+			(uuid "4bb40f9a-fefd-4c5b-be77-7cbe8deaf90b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 173.99 132.08 0)
+			(uuid "4bb75f37-1d23-4f02-aef4-becc2ce6f75d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 173.99 134.62 0)
+			(uuid "98b4fb37-e892-4011-bacb-df812e4f4c1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,66 +1551,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SWDIO" bidirectional
-			(at 175.26 121.92 180)
-			(uuid "ac0d8b04-c7f2-416a-b10d-2e9eedc60148")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JTDI" output
-			(at 175.26 124.46 180)
-			(uuid "a5f0803f-bdf8-4c3d-a1b4-a7b2249b670e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NJTRST" output
-			(at 175.26 127 180)
-			(uuid "66352eb0-8ad3-480d-a401-91173f48d2cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JTCK" output
-			(at 175.26 129.54 180)
-			(uuid "42e9aaed-9e79-4cb3-9957-1c361dd5d3d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NRST" bidirectional
-			(at 175.26 132.08 180)
-			(uuid "7a68e93e-d849-4c6a-bee4-080eb15dd656")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "JTDO" input
-			(at 175.26 134.62 180)
-			(uuid "e5e0f2c4-9e50-4e69-9dff-7538f1b394c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CANH" bidirectional
 			(at 177.8 99.06 90)
 			(uuid "cb6176cb-17e1-4cf4-883b-42d73985c862")
@@ -1333,6 +1569,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "NRST" bidirectional
+			(at 175.26 134.62 180)
+			(uuid "9d243c29-531e-480f-8414-f74d8bdbe218")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDCLK" output
+			(at 175.26 129.54 180)
+			(uuid "274b4f4b-f1e4-4111-8fe6-55531f4b453e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 175.26 132.08 180)
+			(uuid "2b0fc259-471e-477e-80e9-7619194c208a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWO" input
+			(at 175.26 127 180)
+			(uuid "8c7f2fe5-f943-4bbd-99db-c056e1ac1071")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

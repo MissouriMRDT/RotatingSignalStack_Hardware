@@ -807,7 +807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.774 106.934 90)
 			(effects
 				(font
@@ -941,7 +941,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.774 96.774 90)
 			(effects
 				(font
@@ -1009,7 +1009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SG-210STF 50.0000ML0_EPS"
+		(property "Footprint" "SignalStack:SG-210STF 50.0000ML0_EPS"
 			(at 106.68 100.33 0)
 			(effects
 				(font
