@@ -101,16 +101,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 180.34 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ba7b69-cebe-4662-8c4c-90b458535a92")
-	)
-	(wire
-		(pts
 			(xy 109.22 87.63) (xy 109.22 92.71)
 		)
 		(stroke
@@ -128,16 +118,6 @@
 			(type default)
 		)
 		(uuid "1f2cf5c7-2286-45b3-a5e7-1e009a338074")
-	)
-	(wire
-		(pts
-			(xy 173.99 129.54) (xy 175.26 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2760097a-782b-40e9-82af-fbbe3023c280")
 	)
 	(wire
 		(pts
@@ -231,16 +211,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 127) (xy 175.26 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b30b8f5-59dc-4506-a54b-6235b5c36941")
-	)
-	(wire
-		(pts
 			(xy 127 64.77) (xy 128.27 64.77)
 		)
 		(stroke
@@ -268,16 +238,6 @@
 			(type default)
 		)
 		(uuid "94b47318-6b29-41f8-a473-c94193e4f985")
-	)
-	(wire
-		(pts
-			(xy 177.8 93.98) (xy 177.8 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac0234a8-7f1c-479e-9a26-637c1937066d")
 	)
 	(wire
 		(pts
@@ -341,16 +301,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 134.62) (xy 175.26 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc0c7dbf-7893-460e-acb0-b23a847858c8")
-	)
-	(wire
-		(pts
 			(xy 127 54.61) (xy 128.27 54.61)
 		)
 		(stroke
@@ -368,16 +318,6 @@
 			(type default)
 		)
 		(uuid "f2450f04-7982-470b-bdb5-f661c8cc09fa")
-	)
-	(wire
-		(pts
-			(xy 173.99 132.08) (xy 175.26 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb7bb71f-185e-422d-b1a6-a70565b6bda6")
 	)
 	(wire
 		(pts
@@ -1071,46 +1011,6 @@
 				(justify right)
 			)
 		)
-		(pin "SWO" output
-			(at 173.99 127 0)
-			(uuid "673b1d5a-65aa-45cb-96ce-6b42548e0320")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SWCLK" input
-			(at 173.99 129.54 0)
-			(uuid "4bb40f9a-fefd-4c5b-be77-7cbe8deaf90b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SWDIO" bidirectional
-			(at 173.99 132.08 0)
-			(uuid "4bb75f37-1d23-4f02-aef4-becc2ce6f75d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NRST" bidirectional
-			(at 173.99 134.62 0)
-			(uuid "98b4fb37-e892-4011-bacb-df812e4f4c1d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
@@ -1447,26 +1347,6 @@
 				(justify left)
 			)
 		)
-		(pin "CANH" bidirectional
-			(at 177.8 93.98 270)
-			(uuid "9b68ba16-a08b-4c54-b3ee-c622dd137370")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CANL" bidirectional
-			(at 180.34 93.98 270)
-			(uuid "1b21f003-a056-489a-bc4d-6822887bb290")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
@@ -1513,108 +1393,6 @@
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 175.26 99.06)
-		(size 26.67 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e54c0f4b-dfe7-45e5-9ea6-eafbeb6efeec")
-		(property "Sheetname" "Connectors"
-			(at 175.26 98.3484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "connectors.kicad_sch"
-			(at 175.26 137.7446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CANH" bidirectional
-			(at 177.8 99.06 90)
-			(uuid "cb6176cb-17e1-4cf4-883b-42d73985c862")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CANL" bidirectional
-			(at 180.34 99.06 90)
-			(uuid "773266bb-7c8f-4c99-bb7c-26c71d4d885c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NRST" bidirectional
-			(at 175.26 134.62 180)
-			(uuid "9d243c29-531e-480f-8414-f74d8bdbe218")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SWDCLK" output
-			(at 175.26 129.54 180)
-			(uuid "274b4f4b-f1e4-4111-8fe6-55531f4b453e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SWDIO" bidirectional
-			(at 175.26 132.08 180)
-			(uuid "2b0fc259-471e-477e-80e9-7619194c208a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SWO" input
-			(at 175.26 127 180)
-			(uuid "8c7f2fe5-f943-4bbd-99db-c056e1ac1071")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "RotatingSignalStack"
-				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c"
-					(page "9")
 				)
 			)
 		)

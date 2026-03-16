@@ -1322,6 +1322,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 34.29) (xy 102.87 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004c2bee-beee-4f0b-9362-f4a8010cc44e")
+	)
+	(wire
+		(pts
 			(xy 105.41 106.68) (xy 109.22 106.68)
 		)
 		(stroke
@@ -1419,16 +1429,6 @@
 			(type default)
 		)
 		(uuid "20133b91-da6a-4554-82e9-60f2fc8e9622")
-	)
-	(wire
-		(pts
-			(xy 189.23 54.61) (xy 189.23 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2388a789-3352-47ac-a647-9ac654925be0")
 	)
 	(wire
 		(pts
@@ -1542,6 +1542,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 54.61) (xy 189.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714762cf-c0a3-453e-a8a8-e90c7d6c84ab")
+	)
+	(wire
+		(pts
 			(xy 189.23 93.98) (xy 199.39 93.98)
 		)
 		(stroke
@@ -1649,16 +1659,6 @@
 			(type default)
 		)
 		(uuid "99254b86-cffc-4903-89a9-590004a68fae")
-	)
-	(wire
-		(pts
-			(xy 102.87 34.29) (xy 102.87 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "993f4cd8-d221-433e-b017-59c76bb1ba77")
 	)
 	(wire
 		(pts
@@ -2307,72 +2307,6 @@
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/a9338be6-1605-4e18-99c2-b4ba846eda93"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31ceea9d-6b51-41cf-ae17-307897533469")
-		(property "Reference" "#PWR025"
-			(at 189.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5eb440e0-56dd-45a1-b878-fcc3849bf2d9")
-		)
-		(instances
-			(project "RotatingSignalStack"
-				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/a9338be6-1605-4e18-99c2-b4ba846eda93"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3619,7 +3553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 168.91 52.0699 0)
 			(effects
 				(font
@@ -3689,7 +3623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 123.19 49.5301 0)
 			(effects
 				(font
@@ -3941,6 +3875,72 @@
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/a9338be6-1605-4e18-99c2-b4ba846eda93"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "debc2a7a-c40c-40eb-b57e-c337e3b08294")
+		(property "Reference" "#PWR051"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66877395-4383-42f4-ba65-f475c6e0f20d")
+		)
+		(instances
+			(project "RotatingSignalStack"
+				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/a9338be6-1605-4e18-99c2-b4ba846eda93"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
