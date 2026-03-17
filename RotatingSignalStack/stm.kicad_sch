@@ -2611,16 +2611,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "GPIO->"
-		(exclude_from_sim no)
-		(at 80.518 101.854 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6611569c-a090-4b23-81bc-cf763aadc716")
-	)
 	(text "USED DIFFERENT CHIP EXAMPLE (couldn't find one for this exact chip):\nhttps://www.st.com/resource/en/schematic_pack/mb1404-h563zi-c01-schematic.pdf"
 		(exclude_from_sim no)
 		(at 71.374 168.148 0)
@@ -2863,10 +2853,6 @@
 		(uuid "9252172a-e542-4714-9dde-2fce58f74c2d")
 	)
 	(no_connect
-		(at 86.36 101.6)
-		(uuid "bc713b8c-3618-4ae4-b078-358df58270c3")
-	)
-	(no_connect
 		(at 139.7 111.76)
 		(uuid "c3d8042e-2884-462f-9e71-04c8724a759c")
 	)
@@ -2895,16 +2881,8 @@
 		(uuid "f0e98f47-a5b6-42e5-9c2d-86372e049d8d")
 	)
 	(no_connect
-		(at 86.36 96.52)
-		(uuid "f213a81e-6c10-4e74-9dad-130f86b6ffe6")
-	)
-	(no_connect
 		(at 129.54 71.12)
 		(uuid "f60bb56f-6ddd-4e1d-9ba3-93e8022f6d7d")
-	)
-	(no_connect
-		(at 86.36 93.98)
-		(uuid "f73e888b-d90c-4911-b4fb-cf1a52f0a12d")
 	)
 	(no_connect
 		(at 139.7 124.46)
@@ -4391,27 +4369,16 @@
 		)
 		(uuid "0646728c-c62b-4b47-8fd0-da052451a0be")
 	)
-	(hierarchical_label "JOG B"
+	(hierarchical_label "ALIGN"
 		(shape input)
-		(at 124.46 71.12 90)
+		(at 86.36 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "13d257d0-fbc6-432a-a651-d0c317c5dce6")
-	)
-	(hierarchical_label "JOG A"
-		(shape input)
-		(at 121.92 71.12 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c3e00b6-ca95-41ed-acd1-b5d30c26d823")
+		(uuid "0ce61942-d826-4180-b9a5-9b8c0634d78f")
 	)
 	(hierarchical_label "DCAN1_RX"
 		(shape input)
@@ -4545,6 +4512,17 @@
 		)
 		(uuid "dc6087ef-8ee2-4050-947a-2b639a466f6b")
 	)
+	(hierarchical_label "JOG A"
+		(shape input)
+		(at 86.36 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e92a78cc-725d-4ed6-94d3-77ef78e83709")
+	)
 	(hierarchical_label "MDIO"
 		(shape bidirectional)
 		(at 86.36 127 180)
@@ -4556,16 +4534,16 @@
 		)
 		(uuid "ea5d9d0d-aaf2-4cef-89aa-9742f1cec1e0")
 	)
-	(hierarchical_label "ALIGN"
+	(hierarchical_label "JOG B"
 		(shape input)
-		(at 127 71.12 90)
+		(at 86.36 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "ef3ef80a-3009-4010-b891-d95fba43ea12")
+		(uuid "f1931a0d-0cab-4d52-94f8-fec2b20edfa2")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
