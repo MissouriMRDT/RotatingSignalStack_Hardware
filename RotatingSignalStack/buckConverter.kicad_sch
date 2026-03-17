@@ -1731,7 +1731,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 209.55 99.3774 90)
 			(effects
 				(font
@@ -2304,7 +2304,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 129.54 101.9174 90)
 			(effects
 				(font
