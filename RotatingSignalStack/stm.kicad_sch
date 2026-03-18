@@ -2773,10 +2773,6 @@
 		(uuid "ff6e45ce-351c-4b24-8045-fbdf2707a527")
 	)
 	(no_connect
-		(at 139.7 116.84)
-		(uuid "0928cc68-51d7-4d3a-a7b7-9428bf435f85")
-	)
-	(no_connect
 		(at 86.36 111.76)
 		(uuid "0de4c860-503a-4859-a8d3-c0bd0d81754a")
 	)
@@ -2795,10 +2791,6 @@
 	(no_connect
 		(at 86.36 124.46)
 		(uuid "6969e712-72e4-46c7-9e47-cbcd1043fcf2")
-	)
-	(no_connect
-		(at 139.7 121.92)
-		(uuid "69e76401-8b6f-4a3c-ab2f-f73d121cb3db")
 	)
 	(no_connect
 		(at 116.84 144.78)
@@ -2871,10 +2863,6 @@
 	(no_connect
 		(at 129.54 71.12)
 		(uuid "f60bb56f-6ddd-4e1d-9ba3-93e8022f6d7d")
-	)
-	(no_connect
-		(at 139.7 124.46)
-		(uuid "ff591b36-52be-47ee-94cf-aaf9282c7e5f")
 	)
 	(wire
 		(pts
@@ -3285,16 +3273,6 @@
 			(type default)
 		)
 		(uuid "8314d44c-d1e3-409f-a781-de2d28c91534")
-	)
-	(wire
-		(pts
-			(xy 96.52 144.78) (xy 96.52 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ae8ecb-a598-4e46-8397-55061f28b8b3")
 	)
 	(wire
 		(pts
@@ -4128,6 +4106,28 @@
 			)
 		)
 	)
+	(global_label "VSS_1"
+		(shape bidirectional)
+		(at 96.52 144.78 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95207b49-8973-4dbc-a6fe-7366d42b76cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 154.5612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape bidirectional)
 		(at 200.66 101.6 180)
@@ -4315,16 +4315,16 @@
 		)
 		(uuid "0646728c-c62b-4b47-8fd0-da052451a0be")
 	)
-	(hierarchical_label "ALIGN"
+	(hierarchical_label "JOG A"
 		(shape input)
-		(at 86.36 101.6 180)
+		(at 139.7 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "0ce61942-d826-4180-b9a5-9b8c0634d78f")
+		(uuid "14775447-9841-471b-8cf1-47b8ca168809")
 	)
 	(hierarchical_label "DCAN1_RX"
 		(shape input)
@@ -4436,6 +4436,17 @@
 		)
 		(uuid "bd6ef7d4-bbcf-463f-8aa7-36fdf40022cc")
 	)
+	(hierarchical_label "JOG B"
+		(shape input)
+		(at 139.7 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1df3dd6-dce1-4f4b-b853-9e27261501d9")
+	)
 	(hierarchical_label "I2C3_SCL"
 		(shape bidirectional)
 		(at 139.7 106.68 0)
@@ -4458,16 +4469,16 @@
 		)
 		(uuid "dc6087ef-8ee2-4050-947a-2b639a466f6b")
 	)
-	(hierarchical_label "JOG A"
+	(hierarchical_label "ALIGN"
 		(shape input)
-		(at 86.36 93.98 180)
+		(at 139.7 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "e92a78cc-725d-4ed6-94d3-77ef78e83709")
+		(uuid "e8178b3b-9d75-45d3-9362-b2867e9a4d4f")
 	)
 	(hierarchical_label "MDIO"
 		(shape bidirectional)
@@ -4479,17 +4490,6 @@
 			(justify right)
 		)
 		(uuid "ea5d9d0d-aaf2-4cef-89aa-9742f1cec1e0")
-	)
-	(hierarchical_label "JOG B"
-		(shape input)
-		(at 86.36 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1931a0d-0cab-4d52-94f8-fec2b20edfa2")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -5891,72 +5891,6 @@
 			(project "RotatingSignalStack"
 				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/85f5c4be-2744-4dc6-8792-10e4391fb2cb"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79c8243c-b21d-440f-a92e-882c9d833dbe")
-		(property "Reference" "#PWR026"
-			(at 96.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57a6263d-99d4-4e3f-a61d-81cd80404cac")
-		)
-		(instances
-			(project ""
-				(path "/fbbbfa89-3c28-4cf8-856b-66ca7308742c/85f5c4be-2744-4dc6-8792-10e4391fb2cb"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)

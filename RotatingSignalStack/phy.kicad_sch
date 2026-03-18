@@ -1860,6 +1860,46 @@
 		)
 		(uuid "fe29e51d-3754-4c0e-8ad3-e4ea95e67120")
 	)
+	(label "RD+"
+		(at 175.26 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "153a0ba3-645d-404c-997d-aab6b1a605d0")
+	)
+	(label "RD-"
+		(at 175.26 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19150a3c-bc59-4fc2-8af4-8f05d937b595")
+	)
+	(label "TD+"
+		(at 175.26 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c47b28d-828c-4d49-b825-33498f3ee340")
+	)
+	(label "TD-"
+		(at 175.26 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c8b5914-e699-4204-96aa-54962f1ca90d")
+	)
 	(hierarchical_label "TX_D0"
 		(shape output)
 		(at 120.65 76.2 180)
