@@ -2058,7 +2058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
 			(at 204.47 92.71 0)
 			(effects
 				(font
