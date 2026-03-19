@@ -545,7 +545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 76.2 123.19 0)
 			(effects
 				(font
