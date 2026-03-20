@@ -3258,7 +3258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SignalStack:BEADC0603X33N"
+		(property "Footprint" "SignalStack:FB_MI0603L221R-10"
 			(at 191.008 40.64 90)
 			(effects
 				(font
@@ -4014,7 +4014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SignalStack:BEADC0603X33N"
+		(property "Footprint" "SignalStack:FB_MI0603L221R-10"
 			(at 104.648 40.64 90)
 			(effects
 				(font
