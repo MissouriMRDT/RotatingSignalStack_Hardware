@@ -1,2 +1,2 @@
 # SignalStack_Board_Hardware
-Schematic and layout for board designed to rotate the signal stack
+Schematic and layout for the rotating signal stack project
