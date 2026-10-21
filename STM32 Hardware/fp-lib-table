@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RotatingSignalStack_Footprints") (type "KiCad") (uri "C:/Users/jrkin/Documents/GitHub/RotatingSignalStack_Hardware/RotatingSignalStack_Footprints.pretty") (options "") (descr ""))
+)
