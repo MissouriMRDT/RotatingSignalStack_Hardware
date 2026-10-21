@@ -485,7 +485,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "RotatingSignalStack_Symbol"
+    ]
   },
   "meta": {
     "filename": "rotating_signal_stack.kicad_pro",
@@ -661,7 +663,7 @@
         "uuid": "035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
       }
     ],
-    "used_designators": "#PWR1,#PWR4,#PWR7,#PWR10-21,D1,SW1-2,R2-4,J1-2,C2-5",
+    "used_designators": "D1-2,#PWR1,#PWR4,#PWR7,#PWR10-25,#PWR73,SW1-2,J1-2,J4,R2-5,C2-7,U5-6,Q1",
     "variants": []
   },
   "sheets": [
