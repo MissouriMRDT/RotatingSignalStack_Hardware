@@ -5037,10 +5037,6 @@
 		(uuid "020b6315-075a-495d-90fe-2ae0116f5da5")
 	)
 	(no_connect
-		(at 53.34 68.58)
-		(uuid "0aef5936-5720-40ef-baf0-b7967d67c110")
-	)
-	(no_connect
 		(at 53.34 71.12)
 		(uuid "13b5d24a-23f4-479e-9c4f-84594b8e96a6")
 	)
@@ -5055,6 +5051,10 @@
 	(no_connect
 		(at 29.21 38.1)
 		(uuid "4b3df4ca-9997-4da7-bf38-712d67f5eb0a")
+	)
+	(no_connect
+		(at 29.21 73.66)
+		(uuid "5c29c082-a001-4a47-bae8-2b3667442d6b")
 	)
 	(no_connect
 		(at 29.21 60.96)
@@ -5093,10 +5093,6 @@
 		(uuid "98e49841-8d5d-4785-9317-129bf39cdfea")
 	)
 	(no_connect
-		(at 53.34 66.04)
-		(uuid "98f96a79-0c27-43fe-9dbb-087579730dc9")
-	)
-	(no_connect
 		(at 29.21 30.48)
 		(uuid "a89a7b86-2139-484a-bed8-2750aa9ede98")
 	)
@@ -5111,6 +5107,10 @@
 	(no_connect
 		(at 53.34 76.2)
 		(uuid "bc11d852-5f0f-4199-ad1f-806600d127ca")
+	)
+	(no_connect
+		(at 29.21 71.12)
+		(uuid "c6d1b435-9c4b-4e86-8fce-71594d6f486f")
 	)
 	(no_connect
 		(at 29.21 57.15)
@@ -5248,7 +5248,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 73.66) (xy 29.21 73.66)
+			(xy 57.15 66.04) (xy 53.34 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5858,7 +5858,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 71.12) (xy 29.21 71.12)
+			(xy 57.15 68.58) (xy 53.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6058,17 +6058,17 @@
 	)
 	(global_label "PAN_R"
 		(shape input)
-		(at 25.4 73.66 180)
+		(at 57.15 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "399e4ec3-8af5-4eea-a8a9-ac1b03d44aee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.4881 73.66 0)
+			(at 66.0619 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6076,7 +6076,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -6390,17 +6390,17 @@
 	)
 	(global_label "PAN_L"
 		(shape input)
-		(at 25.4 71.12 180)
+		(at 57.15 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "817b7252-cec3-4e64-9dd1-7b675d2635f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.73 71.12 0)
+			(at 65.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6408,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
