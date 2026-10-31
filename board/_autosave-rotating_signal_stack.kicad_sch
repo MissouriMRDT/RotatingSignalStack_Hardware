@@ -9739,7 +9739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal"
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 96.52 78.105 90)
 			(hide yes)
 			(show_name no)
