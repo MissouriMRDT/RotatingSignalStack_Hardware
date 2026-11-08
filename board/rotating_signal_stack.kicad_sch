@@ -4817,6 +4817,18 @@
 		(uuid "9b641056-6728-496d-b514-f106e0c821a2")
 	)
 	(rectangle
+		(start 214.63 109.855)
+		(end 276.86 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bb391973-a2c9-46b2-be3f-5a663c459e7c")
+	)
+	(rectangle
 		(start 127 12.7)
 		(end 161.925 53.34)
 		(stroke
@@ -4939,6 +4951,12 @@
 		(uuid "2e376e2b-ec49-4cfe-a61f-152dbe472fa0")
 	)
 	(junction
+		(at 173.99 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "598c82ee-8f1a-4813-9d4e-c5b94aef8b6d")
+	)
+	(junction
 		(at 241.3 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4991,6 +5009,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a3cbedd-c0cd-4702-9de3-198ac7ad8994")
+	)
+	(junction
+		(at 173.99 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab4f5e3b-92a0-4eae-8571-944d5b877f2a")
 	)
 	(junction
 		(at 100.33 27.94)
@@ -5316,6 +5340,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ace182b-191e-4b26-9efe-83a6994ab84d")
+	)
+	(wire
+		(pts
 			(xy 232.41 33.02) (xy 238.76 33.02)
 		)
 		(stroke
@@ -5516,6 +5550,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 86.36) (xy 173.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8544c5bc-79eb-4f81-978a-e2a11e49cef7")
+	)
+	(wire
+		(pts
 			(xy 53.34 35.56) (xy 57.15 35.56)
 		)
 		(stroke
@@ -5663,6 +5707,16 @@
 			(type default)
 		)
 		(uuid "a044db84-6aad-462d-ab4a-07adb2e73f14")
+	)
+	(wire
+		(pts
+			(xy 170.18 93.98) (xy 173.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67ef07a-3f9a-48a3-ab87-2229b8020a06")
 	)
 	(wire
 		(pts
@@ -6070,7 +6124,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 173.99 83.82 180)
+		(at 171.45 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6080,7 +6134,7 @@
 		)
 		(uuid "40920a97-5fff-4046-ac47-783db6537309")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.4972 83.82 0)
+			(at 164.9572 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,7 +6290,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 173.99 86.36 180)
+		(at 171.45 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6246,7 +6300,7 @@
 		)
 		(uuid "6ccb3c5c-db24-4888-b086-e4fc9b853114")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.4367 86.36 0)
+			(at 164.8967 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6713,6 +6767,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 173.99 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0067bea3-4166-4394-a456-fc0d61dd9de6")
+		(property "Reference" "R6"
+			(at 168.402 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 168.402 77.978 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.974 79.756 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 173.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "30bcfc42-b1f2-442f-846c-cf765f5510b6")
+		)
+		(pin "1"
+			(uuid "d0391081-6fcb-4940-a508-290595cd5127")
+		)
+		(instances
+			(project "rotating_signal_stack"
+				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 142.24 29.21 90)
 		(unit 1)
@@ -6954,6 +7089,84 @@
 			(project "rotating_signal_stack"
 				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 173.99 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "081179ba-7a0f-489c-88a7-ca3a2af5c10d")
+		(property "Reference" "#PWR04"
+			(at 173.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 173.99 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51c17aab-8e50-454e-98a8-80f28208b5a7")
+		)
+		(instances
+			(project "rotating_signal_stack"
+				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9456,6 +9669,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 173.99 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0482699-16d5-42b6-a42f-cf91c490813e")
+		(property "Reference" "R7"
+			(at 164.084 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 164.084 91.948 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.974 89.916 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 173.99 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "19146d72-c3ea-4dca-988f-1eb48e2d3af2")
+		)
+		(pin "1"
+			(uuid "1fcf2177-d12d-45dc-a2dc-2998792094be")
+		)
+		(instances
+			(project "rotating_signal_stack"
+				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 241.3 104.14 0)
 		(unit 1)
@@ -10755,6 +11049,83 @@
 			(project "rotating_signal_stack"
 				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 170.18 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fef4aafe-ec5d-4dea-95e0-dba4295db942")
+		(property "Reference" "#PWR07"
+			(at 170.18 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 169.926 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8dcb0a8c-c49c-4471-93be-8e93a0c95335")
+		)
+		(instances
+			(project "rotating_signal_stack"
+				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

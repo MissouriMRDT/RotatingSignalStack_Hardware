@@ -61,15 +61,21 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 10.0,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.508
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +239,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -487,7 +501,8 @@
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "RotatingSignalStack_Symbol",
-      "RotatingSignalStack_Symbols"
+      "RotatingSignalStack_Symbols",
+      "Rotating_Signal_Stack_Symbols"
     ]
   },
   "meta": {
@@ -682,7 +697,7 @@
         "uuid": "035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
       }
     ],
-    "used_designators": "#PWR1,#PWR4,#PWR7,#PWR10-27,#PWR73-74,D1-2,SW1-2,R2-5,J1-2,J4,C2-7,U4-6,Q1",
+    "used_designators": "#PWR1,#PWR4,#PWR7,#PWR10-27,#PWR73-74,D1-2,SW1-2,R2-7,J1-2,J4,C2-7,U4-6,Q1",
     "variants": []
   },
   "sheets": [
