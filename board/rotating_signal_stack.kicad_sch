@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "035b8928-e12b-4a98-985a-f1fe5fe6ac3a")
 	(paper "A4")
+	(title_block
+		(title "Rotating Signal Stack")
+		(date "2026-11-15")
+		(rev "1.3")
+		(company "Mars Rover Design Team")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -4011,6 +4017,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Rotating_Signal_Stack_Symbols:Through Bore Encoder V2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Through Bore Encoder V2_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin input line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "+V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "ABS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "ENC_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "ENC_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -6.35 0)
+					(length 2.54)
+					(name "ENC_I"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4793,6 +4982,18 @@
 		(uuid "3be882ae-9c45-40ec-99b7-32e87f142785")
 	)
 	(rectangle
+		(start 72.39 109.855)
+		(end 127 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4e26ca3c-ee00-43f5-84ba-014fc6bddb38")
+	)
+	(rectangle
 		(start 127 53.34)
 		(end 161.925 109.855)
 		(stroke
@@ -4891,6 +5092,16 @@
 			)
 		)
 		(uuid "44910c22-0e1b-4658-ab2e-fb54b76fc662")
+	)
+	(text "Rotory Encoder"
+		(exclude_from_sim no)
+		(at 99.822 113.284 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4fbf05f2-d7f2-4b00-9ca8-2fde2144967a")
 	)
 	(text "Panning Buttons"
 		(exclude_from_sim no)
@@ -5065,6 +5276,10 @@
 		(uuid "020b6315-075a-495d-90fe-2ae0116f5da5")
 	)
 	(no_connect
+		(at 93.98 124.46)
+		(uuid "042ddbea-975c-4d4b-bf93-bfdde9c23ade")
+	)
+	(no_connect
 		(at 53.34 71.12)
 		(uuid "13b5d24a-23f4-479e-9c4f-84594b8e96a6")
 	)
@@ -5105,10 +5320,6 @@
 		(uuid "661471de-a445-4477-8256-df99f18c6727")
 	)
 	(no_connect
-		(at 29.21 66.04)
-		(uuid "7b99f9ab-6388-4fe5-a0bf-ceeaf90eeb9f")
-	)
-	(no_connect
 		(at 29.21 76.2)
 		(uuid "87414207-9b4c-4aa9-bf6d-955288fe2995")
 	)
@@ -5123,6 +5334,10 @@
 	(no_connect
 		(at 29.21 30.48)
 		(uuid "a89a7b86-2139-484a-bed8-2750aa9ede98")
+	)
+	(no_connect
+		(at 93.98 132.08)
+		(uuid "ae508ee2-fa4c-476a-83b6-a0c420bbcd39")
 	)
 	(no_connect
 		(at 203.2 40.64)
@@ -5177,6 +5392,16 @@
 			(type default)
 		)
 		(uuid "016ccd5c-c1ea-4d8c-baa4-9e3b0d70620f")
+	)
+	(wire
+		(pts
+			(xy 91.44 137.16) (xy 91.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07293f6b-fca1-4b46-89ef-e2304df290e2")
 	)
 	(wire
 		(pts
@@ -5330,6 +5555,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 134.62) (xy 93.98 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f4fa93-a3d7-4c13-b5f1-01d672c66c0a")
+	)
+	(wire
+		(pts
 			(xy 173.99 86.36) (xy 179.07 86.36)
 		)
 		(stroke
@@ -5417,6 +5652,16 @@
 			(type default)
 		)
 		(uuid "42c52980-11a0-4553-8202-91653c2c9a3c")
+	)
+	(wire
+		(pts
+			(xy 91.44 121.92) (xy 91.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450b8e1e-588d-44a8-bcaf-f233d40d4b6e")
 	)
 	(wire
 		(pts
@@ -5817,6 +6062,16 @@
 			(type default)
 		)
 		(uuid "c7707f28-8d5e-42af-a826-2ec33ba6c08c")
+	)
+	(wire
+		(pts
+			(xy 93.98 121.92) (xy 91.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd96b8d8-7543-4d21-a4b0-1a30a0de0734")
 	)
 	(wire
 		(pts
@@ -6276,6 +6531,30 @@
 			)
 		)
 	)
+	(global_label "ENC A"
+		(shape input)
+		(at 29.21 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58bc7767-a3fd-4ebb-94fd-f62176a7cdcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.4191 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LED2"
 		(shape input)
 		(at 82.55 86.36 180)
@@ -6295,6 +6574,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "ENC B"
+		(shape output)
+		(at 93.98 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67c9d159-6a69-40e8-ba46-39973447370c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.0077 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6597,6 +6900,30 @@
 		(uuid "a803fa3c-b3d4-4d2a-8bdf-2b4b357def71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.49 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ENC A"
+		(shape output)
+		(at 93.98 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b45e1456-2131-44b5-9bfc-b24d80b6b04c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.1891 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,6 +8535,85 @@
 			(project "rotating_signal_stack"
 				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 91.44 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41eed0b7-3d53-44f0-a2d4-32b4debaae93")
+		(property "Reference" "#PWR023"
+			(at 91.44 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 91.44 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "911f7d74-e87b-4bc0-bbe4-311df56bf996")
+		)
+		(instances
+			(project "rotating_signal_stack"
+				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10000,6 +10406,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 91.44 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd98a3da-7e6b-478e-99a9-0d4a25e22156")
+		(property "Reference" "#PWR022"
+			(at 91.44 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 91.44 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 91.44 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "922c84b9-bb80-4dec-9924-699793330671")
+		)
+		(instances
+			(project "rotating_signal_stack"
+				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:RJ45_LED_Shielded")
 		(at 96.52 78.74 0)
 		(unit 1)
@@ -10505,6 +10989,98 @@
 			(project "rotating_signal_stack"
 				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotating_Signal_Stack_Symbols:Through Bore Encoder V2")
+		(at 101.6 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb552c12-b8de-4bcd-bbcc-ea45d842c593")
+		(property "Reference" "U5"
+			(at 103.124 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 101.6 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_06_Horizontal"
+			(at 101.6 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.revrobotics.com/content/docs/REV-11-1271-DS.pdf"
+			(at 101.6 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fb0cb578-cd1f-4e8d-9532-81c2eaca7f33")
+		)
+		(pin "4"
+			(uuid "3996f3e5-3456-464c-83af-42a7709fea55")
+		)
+		(pin "6"
+			(uuid "eb76796d-41d6-48f6-a542-25117623198d")
+		)
+		(pin "3"
+			(uuid "84bcc942-cc7e-498d-a9dc-a01297a8ce8a")
+		)
+		(pin "1"
+			(uuid "e00cb683-8823-4a4f-83b2-3aa95c26294c")
+		)
+		(pin "5"
+			(uuid "fdd7327c-f0a3-484b-a476-ffff90727a22")
+		)
+		(instances
+			(project "rotating_signal_stack"
+				(path "/035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
+					(reference "U5")
 					(unit 1)
 				)
 			)
