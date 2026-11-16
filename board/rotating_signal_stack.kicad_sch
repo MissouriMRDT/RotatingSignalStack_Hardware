@@ -5272,24 +5272,24 @@
 		(uuid "0205b591-ab38-4927-ac2f-72677b65e46f")
 	)
 	(no_connect
-		(at 53.34 73.66)
-		(uuid "020b6315-075a-495d-90fe-2ae0116f5da5")
-	)
-	(no_connect
 		(at 93.98 124.46)
 		(uuid "042ddbea-975c-4d4b-bf93-bfdde9c23ade")
-	)
-	(no_connect
-		(at 53.34 71.12)
-		(uuid "13b5d24a-23f4-479e-9c4f-84594b8e96a6")
 	)
 	(no_connect
 		(at 29.21 83.82)
 		(uuid "3436d280-d1c7-4e10-b667-c3740f495eca")
 	)
 	(no_connect
+		(at 29.21 35.56)
+		(uuid "419062b9-95a2-405d-850d-188d1193358d")
+	)
+	(no_connect
 		(at 29.21 81.28)
 		(uuid "442b2be5-3c3c-4e41-bd67-dcef1217614f")
+	)
+	(no_connect
+		(at 57.15 66.04)
+		(uuid "4abd42fa-e3a0-4d74-b636-25ea5a1b9eb3")
 	)
 	(no_connect
 		(at 29.21 38.1)
@@ -5320,16 +5320,20 @@
 		(uuid "661471de-a445-4477-8256-df99f18c6727")
 	)
 	(no_connect
+		(at 29.21 33.02)
+		(uuid "6efd6182-c091-42bb-92b4-bd99d83ac5dd")
+	)
+	(no_connect
+		(at 66.04 49.53)
+		(uuid "7005a8ae-437a-49be-a9ea-05c15497fa5b")
+	)
+	(no_connect
 		(at 29.21 76.2)
 		(uuid "87414207-9b4c-4aa9-bf6d-955288fe2995")
 	)
 	(no_connect
 		(at 29.21 66.04)
 		(uuid "8bcb2984-e735-472c-9fd0-f54fa8f301d1")
-	)
-	(no_connect
-		(at 29.21 35.56)
-		(uuid "94e77960-dbbf-4146-9056-eb616cf96238")
 	)
 	(no_connect
 		(at 29.21 48.26)
@@ -5348,12 +5352,12 @@
 		(uuid "b1f9522e-9f7b-452a-9f2a-b29087a15c47")
 	)
 	(no_connect
-		(at 29.21 63.5)
-		(uuid "b39b3811-41ce-485d-9d95-4c28d412ba1f")
+		(at 139.7 46.99)
+		(uuid "b275c692-7f8a-46ae-972a-de6a27b1b1f9")
 	)
 	(no_connect
-		(at 53.34 76.2)
-		(uuid "bc11d852-5f0f-4199-ad1f-806600d127ca")
+		(at 29.21 63.5)
+		(uuid "b39b3811-41ce-485d-9d95-4c28d412ba1f")
 	)
 	(no_connect
 		(at 29.21 71.12)
@@ -5370,10 +5374,6 @@
 	(no_connect
 		(at 29.21 54.61)
 		(uuid "deb6a5d1-fd2b-4c12-bee4-8ff715f81c34")
-	)
-	(no_connect
-		(at 29.21 33.02)
-		(uuid "e6db95ac-5c8e-4c26-ba39-3a9e053eb7af")
 	)
 	(no_connect
 		(at 106.68 71.12)
@@ -6169,16 +6169,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 53.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53d1e45-18ae-4023-a934-b88eb354a873")
-	)
-	(wire
-		(pts
 			(xy 234.95 25.4) (xy 238.76 25.4)
 		)
 		(stroke
@@ -6364,30 +6354,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-	)
-	(global_label "PAN_R"
-		(shape input)
-		(at 57.15 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "399e4ec3-8af5-4eea-a8a9-ac1b03d44aee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.0619 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -6629,6 +6595,30 @@
 			)
 		)
 	)
+	(global_label "ENC B"
+		(shape input)
+		(at 53.34 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7442a262-ea70-43d3-9848-de45b5a66a12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.3123 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 25.4 43.18 180)
@@ -6712,30 +6702,6 @@
 		(uuid "8141ecd1-ae21-478c-a49a-95e1afbcca93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.6147 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PAN_L"
-		(shape input)
-		(at 57.15 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "817b7252-cec3-4e64-9dd1-7b675d2635f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6963,6 +6929,30 @@
 			)
 		)
 	)
+	(global_label "ENC A"
+		(shape input)
+		(at 53.34 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bab470ed-8026-426b-988a-612c40351d19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.1309 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Rx-"
 		(shape input)
 		(at 113.03 73.66 0)
@@ -7059,6 +7049,30 @@
 			)
 		)
 	)
+	(global_label "PAN_L"
+		(shape input)
+		(at 53.34 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3c11421-6eef-4a6f-8b94-8ccad5ae0f77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.01 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "M2"
 		(shape input)
 		(at 57.15 55.88 0)
@@ -7072,6 +7086,30 @@
 		(uuid "e7977b20-5644-4a1f-a780-3b96dcf09ae9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.7961 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PAN_R"
+		(shape input)
+		(at 53.34 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebae4655-0c0b-4e79-a577-aa4ae0e499ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.2519 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7594,7 +7632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMSZ5240BT1G"
+		(property "Value" "10V"
 			(at 231.14 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,7 +7643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Devices:SOD-123_ONS-L"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 228.6 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7767,7 +7805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
 			(at 264.16 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11493,7 +11531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 237.7948 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11504,7 +11542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/rubycon/25ZLH470MEFC10X12-5/3563614"
 			(at 238.76 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11572,7 +11610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 86.6648 27.94 0)
 			(hide yes)
 			(show_name no)
