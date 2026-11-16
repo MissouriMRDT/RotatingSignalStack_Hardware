@@ -5324,6 +5324,10 @@
 		(uuid "87414207-9b4c-4aa9-bf6d-955288fe2995")
 	)
 	(no_connect
+		(at 29.21 66.04)
+		(uuid "8bcb2984-e735-472c-9fd0-f54fa8f301d1")
+	)
+	(no_connect
 		(at 29.21 35.56)
 		(uuid "94e77960-dbbf-4146-9056-eb616cf96238")
 	)
@@ -6528,30 +6532,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "ENC A"
-		(shape input)
-		(at 29.21 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58bc7767-a3fd-4ebb-94fd-f62176a7cdcc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.4191 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
