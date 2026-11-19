@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -542,15 +539,15 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fabrication/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -705,7 +702,7 @@
         "uuid": "035b8928-e12b-4a98-985a-f1fe5fe6ac3a"
       }
     ],
-    "used_designators": "#PWR1,#PWR4,#PWR7,#PWR10-27,#PWR73-74,C2-7,D1-2,J1-2,J4,Q1,R2-7,SW1-2,U4-6",
+    "used_designators": "J1-2,J4,C2-7,D1-2,Q1,#PWR1,#PWR4,#PWR7,#PWR10-27,#PWR73-74,R2-7,SW1-2,U4-6",
     "variants": []
   },
   "sheets": [
